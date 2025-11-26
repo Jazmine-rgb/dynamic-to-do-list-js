@@ -56,7 +56,7 @@ document.addEventListener( 'DOMContentLoaded', () =>
       saveTaskToStorage( trimmedText );
     }
 
-    taskInput.value = "";
+    taskInput.value.trim() = "";
   }
 
   // Load tasks from Local Storage
